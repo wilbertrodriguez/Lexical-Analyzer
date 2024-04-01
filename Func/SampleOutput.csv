@@ -1,0 +1,31 @@
+Token:,identifier,,Lexeme:,int
+Token:,identifier,,Lexeme:,main
+Token:,leftParen,,Lexeme:,(
+Token:,identifier,,Lexeme:,int
+Token:,identifier,,Lexeme:,argc
+Token:,rightParen,,Lexeme:,)
+Token:,leftBrace,,Lexeme:,{
+Token:,identifier,,Lexeme:,printf
+Token:,leftParen,,Lexeme:,(
+Token:,string,,Lexeme:,"""Hello, this is a txt file"""
+Token:,rightParen,,Lexeme:,)
+Token:,semicolon,,Lexeme:,;
+Token:,identifier,,Lexeme:,BestProf
+Token:,leftParen,,Lexeme:,(
+Token:,rightParen,,Lexeme,)
+Token:,semicolon,,Lexeme:,;
+Token:,identifier,,Lexeme:,return 
+Token:,intLiteral,,Lexeme:,0
+Token:,semicolon,,Lexeme:,;
+Token:,rightBrace,,Lexeme:,}
+Token:,identifier,,Lexeme:,void
+Token:,identifier,,Lexeme:,BestProf
+Token:,leftParen,,Lexeme:,(
+Token:,rightParen,,Lexeme:,)
+Token:,leftBrace,,Lexeme:,{
+Token:,identifier,,Lexeme:,printf
+Token:,leftParen,,Lexeme:,(
+Token:,string,,Lexeme:,"""Professor Dalton"""
+Token:,rightParen,,Lexeme:,)
+Token:,semicolon,,Lexeme:,;
+Token:,rightBrace,,Lexeme:,}

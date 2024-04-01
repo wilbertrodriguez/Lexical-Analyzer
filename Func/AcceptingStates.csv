@@ -1,0 +1,9 @@
+identifier,1
+whitespace,2
+(,3
+),4
+{,5
+},6
+;,7
+string,10
+intLiteral,11
