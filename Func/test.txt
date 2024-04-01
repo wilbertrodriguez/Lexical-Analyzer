@@ -1,0 +1,10 @@
+int main(int argc) {
+  // this is a test
+  printf("Hello, this is a txt file");
+  BestWest();
+  return 0;
+}
+
+void BestWest(){
+  printf("Westest");
+}
