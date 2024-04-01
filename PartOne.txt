@@ -1,0 +1,20 @@
+Token                 RE
+
+addOp                 (+ | -)
+assignOp              (= | (+ | - | * | /) =)
+char                  (\ (l | \ | ' | "))
+comma                 (, )
+comparator            (< | > | >= | <= | == | !=)
+floatLiteral          (d^*.d^* | .d^* | d^*. | d^* (E (-d^* | d^*))).   ???  
+                  in class answer: digit+(E|e)(+|-)digit+ | digit* . digit+ | digit+ . digit* | (digit* . digit+|digit+ . digit*)(E|e)(+|-)digit*
+incrOp                (++,--)
+identifier            ('main'|'printf'|'_x'|'myFunc')
+intLiteral            (d^* | d^* l^*)
+leftBrace             ({)
+logicalNot            (!)
+leftParen             ('/(')
+multOp                (* | /)
+rightBrace            (})
+rightParen            ('/)')
+semicolon             (;)
+string                (" (l^* | l^*(\(l|'|"|,)) ")
